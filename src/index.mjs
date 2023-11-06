@@ -15,7 +15,7 @@ const riveCanvas = document.getElementById("rive-canvas")
 
 const riveInstance = new rive.Rive({
   // Load a local riv `clean_the_car.riv` or upload your own!
-  src: "clean_the_car.riv",
+  src: "https://cdn.rive.app/animations/vehicles.riv",
   // Be sure to specify the correct state machine (or animation) name
   stateMachines: "Motion", // Name of the State Machine to play
   canvas: riveCanvas,
